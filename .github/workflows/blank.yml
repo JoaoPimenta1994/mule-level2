@@ -67,4 +67,4 @@ jobs:
           
       # maven build command, could add other flags if needed
       - name: Build
-        run: mvn -B package --file check-in-papi-app/pom.xml
+        run: mvn -B clean package --file check-in-papi-app/pom.xml
