@@ -8,11 +8,10 @@
 		<relativePath>../parent-pom/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.mycompany</groupId>
+	<groupId>043a2d74-3b5c-4322-a3fd-149f470031c1</groupId>
 	<artifactId>check-in-papi-app</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
-
 	<name>check-in-papi-app</name>
 
 	<properties>
@@ -37,12 +36,14 @@
 					<configuration>
 						<cloudhub2Deployment>
 							<uri>https://anypoint.mulesoft.com</uri>
-							<businessGroupId>YOUR_OWN_ID</businessGroupId>
+							<businessGroupId>043a2d74-3b5c-4322-a3fd-149f470031c1</businessGroupId>
 							<environment>Sandbox</environment>
 							<target>Cloudhub-US-East-2</target>
 							<provider>MC</provider>
 							<muleVersion>4.4.0</muleVersion>
-							<server>cloudhub-deploy</server>							<!-- reads credentials from settings.xml -->
+							
+							<server>cloudhub-deploy</server>							
+							<!-- reads credentials from settings.xml -->
 							<applicationName>YOUR_APP_NAME</applicationName>
 							<replicas>1</replicas>
 							<vCores>0.1</vCores>
