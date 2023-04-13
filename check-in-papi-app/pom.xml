@@ -44,7 +44,7 @@
 							
 							<server>cloudhub-deploy</server>							
 							<!-- reads credentials from settings.xml -->
-							<applicationName>YOUR_APP_NAME</applicationName>
+							<applicationName>check-in-papi-app</applicationName>
 							<replicas>1</replicas>
 							<vCores>0.1</vCores>
 							<deploymentTimeout>240000</deploymentTimeout>
